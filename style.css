@@ -1,0 +1,29 @@
+html{
+  /* 1rem = 16pxと定義 */
+  font-size: 16px;
+}
+
+.slide-items {
+  width: 80%;
+  margin:auto;
+}
+
+.slide-items img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 80%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(5, 217, 132);
+  font-size: 30px;
+}
